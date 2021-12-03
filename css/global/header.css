@@ -1,0 +1,43 @@
+.header-bg {
+  background-color: #000;
+}
+
+.header {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+.header-menu {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+}
+
+.header-menu a {
+  display: inline-block;
+  padding: 16px 0px;
+  color: var(--cor-w);
+  font-size: 18px;
+  position: relative;
+  font-family: 'Poppins';
+  font-weight: 400;
+}
+
+.header-menu a::after {
+  content: '';
+  display: block;
+  height: 2px;
+  width: 0%;
+  background-color: var(--cor-w);
+  margin-top: 4px;
+  position: absolute;
+  transition: 0.3s;
+}
+
+.header-menu a:hover:after {
+  width: 100%;
+}
