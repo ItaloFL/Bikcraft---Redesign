@@ -9,6 +9,7 @@
   font-size: 18px;
   line-height: 1.33;
   font-weight: bold;
+  max-width: max-content;
 }
 
 .button:hover {
@@ -33,4 +34,13 @@
 .link:hover {
   color: var(--cor-0);
   transition: 0.2s;
+}
+
+.button.secundario {
+  background: var(--cor-10);
+  color: var(--cor-2);
+}
+
+.button.secundario:hover{
+  background-color: var(--cor-9);
 }
