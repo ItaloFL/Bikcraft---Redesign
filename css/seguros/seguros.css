@@ -8,6 +8,10 @@
   padding-bottom: 60px;
 }
 
+#seguros .seguros{
+  padding-top: 0px;
+}
+
 .seguros h2 {
   margin-bottom: 40px;
 }
@@ -24,6 +28,7 @@
   padding: 32px 32px 32px 60px;
   display: grid;
   grid-template-columns: 1fr auto;
+  border-radius: 4px;
 }
 
 .seguros-item h3 {

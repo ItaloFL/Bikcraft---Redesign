@@ -21,8 +21,13 @@
 
 /* Seguros */
 @import url(seguros/seguros.css);
+@import url(seguros/perguntas.css);
+@import url(seguros/vantagens.css);
 
 
 /* Termos */
 @import url(termos/termos.css);
+
+/* Bicicleta */
+@import url(bicicleta/bicicleta.css);
 
