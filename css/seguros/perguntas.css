@@ -43,6 +43,20 @@
   width: 14px;
   height: 6px;
   background-image: url(../../img/icones/seta-abrir.svg);
+  transition: 0.3s;
+}
+
+.perguntas button:hover::after,
+.perguntas button[aria-expanded="true"]::after {
+  transform: rotate(180deg);
+}
+
+.js .perguntas dd {
+  display: none;
+}
+
+.js .perguntas dd.ativa {
+  display: block;
 }
 
 .perguntas dd {

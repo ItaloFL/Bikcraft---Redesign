@@ -8,12 +8,15 @@
   <meta name="description" content="Bicicletas Elétricas de alta precisão e qualidade
   feitas sob medida para o cliente. Explore o mundo na sua velocidade com a Bikcraft.">
 
+  <link rel="shortcut icon" href="favicon.svg" type="image/svg+xml">
   <link rel="preload" href="./css/style.css" as="style">
   <link rel="stylesheet" href="./css/style.css">
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,900&family=Poppins:wght@400;600&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+
+  <script>document.documentElement.classList.add('js')</script>
 </head>
 <body>
   <header class="header-bg">
@@ -33,13 +36,13 @@
   <main class="introducao-bg">
      <div class="introducao container" aria-label="Introdução">
         <div class="introducao-conteudo">
-        <h1 class="titulo cor-0">Bicicletas feitas sob medida<span>.</span></h1>
-        <p class="introducao-paragrafo">Bicicletas eletricas de alta precisão e qualidade, feitas sob medida para você.
+        <h1 class="titulo cor-0 fadeInDown" data-anime="200">Bicicletas feitas sob medida<span>.</span></h1>
+        <p class="introducao-paragrafo fadeInDown" data-anime="400">Bicicletas eletricas de alta precisão e qualidade, feitas sob medida para você.
           Explore o mundo na sua velocidade com a Bikcraft.
         </p>
-        <a class="button" href="./bicicletas.html">Escolha a sua</a>
+        <a class="button fadeInDown" data-anime="600" href="./bicicletas.html">Escolha a sua</a>
       </div>
-      <div>
+      <div data-anime="800" class="fadeInDown">
         <img src="img/fotos/introducao.jpg" width="1280" height="1600" alt="Bicicleta eletrica preta.">
       </div>
     </div>
@@ -217,6 +220,7 @@
       <p class="footer-copy font-2-m cor-6">Bikcraft Alguns direitos reservados</p>
     </div>
   </footer>
+  <script src="./js/plugins/simple-anime.js"></script>;
   <script src="./js/script.js"></script>
 </body>
 </html>
